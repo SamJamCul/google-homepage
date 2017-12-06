@@ -1,3 +1,30 @@
-#hplogo {
+.centre {
+  display: block;
+  height: 363px;
+  width: 980px;
+  text-align: center;
+}
 
+#mainlogo {
+  height: 92px;
+  padding-top: 109px;
+  margin-top: 89px;
+  width: 272px;
+}
+
+.searchbox {
+  width: 484;
+  height: 44;
+}
+
+.searcharea {
+  height: 39px;
+  width: 403px;
+  padding-top: 5px;
+  padding-left: 16;
+  padding-right: 9;
+}
+
+.searchtext {
+  font-size: 16px;
 }
