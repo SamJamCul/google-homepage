@@ -13,18 +13,28 @@
 }
 
 .searchbox {
-  width: 484;
-  height: 44;
+  display: table;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
 .searcharea {
-  height: 39px;
-  width: 403px;
-  padding-top: 5px;
-  padding-left: 16;
-  padding-right: 9;
+  width: 484px;
+  height: 44px;
+  box-shadow: 1px 1px;
 }
 
 .searchtext {
   font-size: 16px;
+  width: 403px;
+  height: 38px;
+  padding-left: 16px;
+  padding-right: 9px;
+  padding-top: 6px;
+  border-width: 0px;
+}
+
+.searchvoice {
+  height: 23px;
+  width: 23px;
 }
