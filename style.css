@@ -8,6 +8,14 @@
   width: 980px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -16,6 +24,26 @@ ul {
 
 li {
   float: right;
+}
+
+.signin {
+  width: 43.344px;
+  height: 28px;
+  background-color: rgb(66, 133, 244);
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 1px;
+  line-height: 28px;
+  padding-bottom: 1px;
+
+  vertical-align: middle;
+}
+
+li a {
+  display: block;
+  margin-right: 15px;
 }
 
 .centre {
@@ -68,7 +96,6 @@ li {
   border-width: 0px;
   float: left;
   font-family: arial, sans-serif;
-
 }
 
 .searchtext:focus {
