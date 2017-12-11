@@ -6,7 +6,16 @@
   position: absolute;
   right: 0px;
   width: 980px;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
 }
 
 .centre {
