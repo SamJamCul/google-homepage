@@ -1,8 +1,25 @@
+.topline {
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 30px;
+  position: absolute;
+  right: 0px;
+  width: 980px;
+
+}
+
 .centre {
   display: block;
-  height: 363px;
-  width: 980px;
+  height: 600px;
+  min-width: 980px;
   text-align: center;
+  position: relative;
+}
+
+.picturebox {
+  vertical-align: middle;
+  margin: auto;
 }
 
 #mainlogo {
@@ -15,7 +32,7 @@
 
 .searchbox {
   display: table;
-  margin: 0 auto;
+  margin: auto;
   vertical-align: middle;
 }
 
@@ -28,10 +45,6 @@
 }
 
 .searcharea:hover {
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
-}
-
-.searcharea:focus {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
@@ -65,4 +78,44 @@
   padding-top: 5px;
   height: 25px;
   width: 23px;
+}
+
+.searchbuttons {
+  padding-top: 18px;
+  width: 487px;
+  height: 58px;
+  margin: auto;
+  display: table;
+}
+
+.googlebutton {
+  width: 121.750px;
+  height: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgb(242, 242, 242);
+  color: rgb(117, 117, 117);
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 0px;
+  border-color: rgb(242, 242, 242);
+  margin: 11px 4px 11px 4px;
+}
+
+.luckybutton {
+  width: 142.580px;
+  height: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: rgb(242, 242, 242);
+  color: rgb(117, 117, 117);
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 0px;
+  border-color: rgb(242, 242, 242);
+  margin: 11px 4px 11px 4px;
 }
