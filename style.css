@@ -178,3 +178,53 @@ li a {
   border-color: rgb(242, 242, 242);
   margin: 11px 4px 11px 4px;
 }
+
+.pagebot {
+  background-color: rgb(242, 242, 242);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  min-width: 980px;
+  height: 82px;
+}
+
+.countrybar {
+  height: 40px;
+  border-width: 1px;
+  border-color: rgb(228, 228, 228);
+  border-style: solid;
+}
+
+.UK {
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  display: inline;
+  text-align: left;
+}
+
+.botbar {
+  height: 40px;
+}
+
+.botbar p {
+  display: inline;
+  color: rgb(102, 102, 102);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+.textleftbot {
+  text-align: left;
+  padding-left: 27px;
+}
+
+.textrightbot {
+  float: right;
+  padding-right: 27px;
+  margin: 0;
+}
