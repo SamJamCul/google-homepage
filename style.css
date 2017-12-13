@@ -9,6 +9,11 @@
   margin-top: 12px;
 }
 
+a.signin {
+  text-decoration: none;
+  color: white;
+}
+
 a.signin:visited {
   text-decoration: none;
   color: white;
